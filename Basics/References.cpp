@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-int main(){
+
+int main() {
     // reference to existing variable with &
     string food = "Pizza";
     string &meal = food; //reference to food
@@ -12,10 +13,8 @@ int main(){
     //to get the memory address of variable put & in cout
     cout << &food;
 
-/* this is important to note because they give you the ability to 
-manipulate the data in computer memory - which can reduce the code
-and improve the performance **/
-
-
+    /* this is important to note because they give you the ability to 
+    manipulate the data in computer memory - which can reduce the code
+    and improve the performance **/
     return 0;
 }

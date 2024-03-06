@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-
     //s writes string to stdout
     char name[] = "World";
     printf("String is: %s\n", name);
@@ -26,15 +25,12 @@ int main() {
 //ROUNDING
     printf("Double is: %.2f\n", num);
 
-
 //STRINGF FUNCTION
-    
     printf("Welcome %s, your known character is %*c is this correct?\n\n", name, 2, letter);
 
 //COUT VERSION
     letter = 'A';
     cout << "Char is:" << letter; 
-
 
     return 0;
 }

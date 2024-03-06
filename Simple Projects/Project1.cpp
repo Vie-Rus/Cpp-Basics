@@ -2,8 +2,7 @@
 #include <iostream>
 using namespace std;
 
-
-class Student{
+class Student {
     public:
         char name[50];
         int id; 
@@ -12,20 +11,17 @@ class Student{
 
 int main() {
     Student stud;
-
 //Name
     cout << "Enter your name: "<< endl;
     cin >> stud.name;
 
 //ID
     cout << "Enter your Student ID: " << endl;
-    cin >>stud.id;
+    cin >> stud.id;
 
 //GPA
-    cout << "Enter your gpa: "<< endl;
+    cout << "Enter your gpa: " << endl;
     cin >> stud.gpa;
-
-
 
     cout << "Your name is: " << stud.name << endl;
     cout << "Your ID is: " << stud.id << endl;
